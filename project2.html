@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Project 2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Project 2 - Raj Shekhar</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="index.html" class="link">RS.</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h1 class="section__title">Project 2</h1>
+        
+        <div class="project-details">
+          <img src="/api/placeholder/800/400" alt="Project 2 Screenshot" class="project-image" />
+          
+          <h2>Overview</h2>
+          <p>
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis. Project 2 represents an innovative approach to solving 
+            complex problems through interactive user interfaces and efficient data handling.
+          </p>
+          
+          <h2>Technologies Used</h2>
+          <ul class="project__stack">
+            <li class="skills__list-item btn btn--plain">SASS</li>
+            <li class="skills__list-item btn btn--plain">TypeScript</li>
+            <li class="skills__list-item btn btn--plain">React</li>
+          </ul>
+          
+          <h2>Features</h2>
+          <ul class="features-list">
+            <li>Responsive Design: Fully adaptive layouts for all device sizes</li>
+            <li>Data Visualization: Interactive charts and graphs</li>
+            <li>Performance Optimization: Efficient rendering and state management</li>
+            <li>Accessibility: WCAG 2.1 AA compliant components</li>
+          </ul>
+          
+          <h2>Challenges & Solutions</h2>
+          <p>
+            One of the main challenges was implementing real-time data updates without 
+            compromising performance. This was solved by implementing a custom state 
+            management solution that minimized re-renders and optimized data flow.
+          </p>
+          
+          <h2>Results</h2>
+          <p>
+            The project achieved a 40% improvement in load times compared to previous 
+            implementations, and user engagement metrics showed a significant increase 
+            in session duration and interaction rates.
+          </p>
+          
+          <div class="project-links">
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="btn btn--outline"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i> View Source Code
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="btn btn--outline"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+          </div>
+          
+          <div class="back-link">
+            <a href="index.html#projects" class="link">
+              <i class="fas fa-arrow-left"></i> Back to Projects
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rjshkhr/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
